@@ -1,9 +1,9 @@
 terraform {
   backend "remote" {
-    organization = "TU_ORGANIZACION_TFCLOUD"
+    organization = "sistendca"
 
     workspaces {
-      name = "TU_WORKSPACE"
+      name = "secarl-test"
     }
   }
 }
